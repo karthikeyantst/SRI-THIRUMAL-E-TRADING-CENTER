@@ -1,0 +1,201 @@
+/* Basic Styling for your website */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+  }
+  
+  .hero {
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  footer {
+ 
+    text-align: center;
+    padding: 20px;
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+    background-image: url('https://thingscareerrelated.com/wp-content/uploads/2018/03/lake2b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    color: black;
+   
+
+
+}
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+
+
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+
+    color: #5b9bd5;
+  }
+  
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+
+    margin: 20px;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    background:salmon;
+
+   
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+   color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  /* Service Card Hover Effect */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Section Overlay */
+#services {
+  position: relative;
+  background-image: url('https://thingscareerrelated.com/wp-content/uploads/2018/03/lake2b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+#services .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional - Hero section full height */
+.hero {
+  height: 100vh;
+  background-image: url('https://t4.ftcdn.net/jpg/05/30/52/75/360_F_530527537_ivZCcQClE5grZ5on0Bf364QZMPYgYHV8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+
+}
+/* Button hover */
+.btn-primary:hover, .btn-success:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
+footer a:hover {
+  color: #0d6efd; /* Bootstrap Primary Color */
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+#contact{
+  background-image: url('https://img.freepik.com/free-photo/blurred-background-nature-offering-softfocused-backdrop-lush-greenery_157027-3135.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+ 
+  padding: 20px;
+
+}
+ #about{
+  background-image: url('https://t4.ftcdn.net/jpg/08/14/49/53/360_F_814495352_AHHtYnklUYq5h1PQCPDmnRCBPUyAdsuI.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:black;
+  display: flex;
+
+ }
+ .text-center {
+  color: #000;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 20px;
+ }
+
+
